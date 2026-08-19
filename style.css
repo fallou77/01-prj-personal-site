@@ -187,10 +187,10 @@ header {
 }
 
 .cert-badge {
-  width: 200px;
+  width: 180px;
   height: auto;
   display: block;
-  margin: 20px auto;
+  margin: 0 auto 20px;
 }
 
 .certification-details h3 {
