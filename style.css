@@ -186,6 +186,13 @@ header {
   flex-shrink: 0;
 }
 
+.cert-badge {
+  width: 200px;
+  height: auto;
+  display: block;
+  margin: 20px auto;
+}
+
 .certification-details h3 {
   margin-top: 0;
   margin-bottom: 10px;
