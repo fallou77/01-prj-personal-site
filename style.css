@@ -126,6 +126,14 @@ header {
   margin-top: 16px;
 }
 
+.certifications-list {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: stretch;
+  gap: 18px;
+  margin-top: 16px;
+}
+
 .skills-list {
   grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
 }
@@ -176,7 +184,8 @@ header {
   display: flex;
   align-items: center;
   gap: 24px;
-  max-width: 680px;
+  flex: 1 1 360px;
+  max-width: none;
 }
 
 .certification-card img {
