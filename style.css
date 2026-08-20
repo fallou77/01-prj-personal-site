@@ -153,6 +153,18 @@ header {
   box-shadow: 0 14px 30px rgba(15, 23, 42, 0.06);
 }
 
+.project-card {
+  display: flex;
+  flex-direction: column;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.project-card:hover,
+.project-card:focus-within {
+  transform: translateY(-4px);
+  box-shadow: 0 18px 34px rgba(15, 23, 42, 0.1);
+}
+
 .skill-card {
   text-align: center;
   min-height: 150px;
@@ -178,6 +190,45 @@ header {
   margin-top: 0;
   margin-bottom: 10px;
   color: var(--primary-dark);
+}
+
+.project-tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin-top: auto;
+  padding-top: 18px;
+}
+
+.project-tags span {
+  background: rgba(47, 110, 158, 0.1);
+  border: 1px solid var(--border);
+  border-radius: 999px;
+  color: var(--primary-dark);
+  font-size: 0.8rem;
+  font-weight: 600;
+  padding: 4px 9px;
+}
+
+.project-actions {
+  margin-top: 18px;
+}
+
+.project-button {
+  display: inline-block;
+  background: var(--primary);
+  border-radius: 999px;
+  color: white;
+  font-weight: 700;
+  padding: 9px 16px;
+  text-decoration: none;
+  transition: background 0.2s ease, transform 0.2s ease;
+}
+
+.project-button:hover,
+.project-button:focus {
+  background: var(--primary-dark);
+  transform: translateY(-2px);
 }
 
 .certification-card {
